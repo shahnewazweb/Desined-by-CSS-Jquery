@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design By CSS & HTML</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+  </head>
+  <body>
+    <h2 class="center">Pagination with Margins</h2>
+
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="#">1</a>
+      <a href="#" class="active">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <a href="#">6</a>
+      <a href="#">&raquo;</a>
+    </div>
+
+    <h2 class="center">Horizontal Icon Bar</h2>
+    <div class="icon-bar">
+      <a class="active" href="https://www.fiverr.com/newaz_shahin"
+        ><i class="fa fa-home"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/shahnewazweb/"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <a href="https://github.com/shahnewazweb"><i class="fa fa-github"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+      <a href="https://twitter.com/shahnewazweb"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a href="https://www.facebook.com/shahnewazweb"
+        ><i class="fa fa-facebook"></i
+      ></a>
+      <a href="https://shahnewazweb.com/"><i class="fa fa-globe"></i></a>
+    </div>
+
+    <h2 class="center">Vertical Icon Bar</h2>
+    <div class="icon-bar-vertical">
+      <a class="active-vertical" href="https://www.fiverr.com/newaz_shahin"
+        ><i class="fa fa-home"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/shahnewazweb/"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <a href="https://github.com/shahnewazweb"><i class="fa fa-github"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+      <a href="https://twitter.com/shahnewazweb"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a href="https://www.facebook.com/shahnewazweb"
+        ><i class="fa fa-facebook"></i
+      ></a>
+      <a href="https://shahnewazweb.com/"><i class="fa fa-globe"></i></a>
+    </div>
+
+
+
+
+
+
+
+
+    <h2 class="center">Accordion with symbols</h2>
+  
+    <button class="accordion-box1">Section 1</button>
+    <div #id="add" class="panel1">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+    </div>
+
+    <button class="accordion-box2">Section 2</button>
+    <div #id="add" class="panel2">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+    </div>
+
+    <button class="accordion-box3">Section 3</button>
+    <div #id="add" class="panel3">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+    </div>
+
+ 
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.accordion-box1').click(function(){
+          $('.panel1').toggle();
+          
+        });  
+      });
+       $(document).ready(function(){
+        $('.accordion-box2').click(function(){
+          $('.panel2').toggle();
+          
+        });  
+      });
+       $(document).ready(function(){
+        $('.accordion-box3').click(function(){
+          $('.panel3').toggle();
+          
+        });  
+      });
+    
+    </script>
+    
+  </body>
+</html>

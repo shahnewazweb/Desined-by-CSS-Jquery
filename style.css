@@ -1,0 +1,204 @@
+h2.center{
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 30px;
+    border-bottom:1px solid #2ab2d4;
+}
+.pagination{
+    /*display: inline-block;*/
+    width:50%;
+    margin: 50px auto;
+    text-align: center;
+
+}
+.pagination a {
+  color: black;
+  /*float: left;*/
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+
+
+
+.icon-bar{
+    width: 100%;
+  background-color: #555;
+  overflow: auto;
+    
+}
+.icon-bar a {
+  float: left;
+  width: 14.28%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+.icon-bar a:hover {
+  background-color: rgb(2, 145, 202);
+}
+
+.active {
+  background-color: #2ab2d4;
+}
+
+
+.icon-bar-vertical {
+  width: 90px;
+  background-color: #555;
+  margin:auto;
+}
+.icon-bar-vertical a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar-vertical a:hover {
+  background-color: rgb(2, 145, 202);
+}
+
+.active-vertical {
+  background-color: #2ab2d4;
+}
+/*Accordian*/
+.accordion-box3 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  display:block;
+  margin:auto;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.accordion-box3:after {
+  content: '+';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  
+}
+
+.accordion-box2 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  display:block;
+  margin:auto;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.accordion-box2:after {
+  content: '+';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  
+}
+
+.accordion-box1 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  display:block;
+  margin:auto;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.accordion-box1:after {
+  content: '+';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  
+}
+
+
+
+
+
+
+.panel1 {
+  padding: 0 18px;
+  background-color: white;
+  max-height: auto;
+  width:70%;
+  margin:auto;
+  overflow: hidden;
+  transition:0.2s ease-out;
+  display:none;
+  
+}
+
+.panel1 p{
+  padding:10px 20px;
+}
+
+
+.panel2 {
+  padding: 0 18px;
+  background-color: white;
+  max-height: auto;
+  width:70%;
+  margin:auto;
+  overflow: hidden;
+  transition:0.2s ease-out;
+  display:none;
+  
+}
+
+.panel2 p{
+  padding:10px 20px;
+}
+
+.panel3 {
+  padding: 0 18px;
+  background-color: white;
+  max-height: auto;
+  width:70%;
+  margin:auto;
+  overflow: hidden;
+  transition:0.2s ease-out;
+  display:none;
+  
+  
+}
+
+.panel3 p{
+  padding:10px 20px;
+  
+}
